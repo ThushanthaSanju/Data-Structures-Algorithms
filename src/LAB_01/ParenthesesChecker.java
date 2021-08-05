@@ -6,7 +6,7 @@ public class ParenthesesChecker {
 	
 	public static void main(String[] args) {
 		
-		String str = "({[]})";
+		String str = "({[a+b+v]})";
 		
 		//Declare a stack
 		Stack <Character> st = new Stack<>();
